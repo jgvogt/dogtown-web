@@ -229,7 +229,194 @@
     ];
 
     //Flights Section
+    $scope.flights = [
+      {
+        "name": "Championship",
+        "players" : [
+          {
+            "name":"Charlie Barden",
+            "handicap":"1"
+          },
+          {
+            "name":"Steve Roper",
+            "handicap":"3"
+          },
+          {
+            "name":"Jay Keeley",
+            "handicap":"6"
+          },
+          {
+            "name":"Tim S O'Brien",
+            "handicap":"9"
+          },
+          {
+            "name":"Joe Finn",
+            "handicap":"11"
+          },
+          {
+            "name":"Nate Hampton",
+            "handicap":"13"
+          },
+          {
+            "name":"Sean Mattingly",
+            "handicap":"14"
+          },
+          {
+            "name":"Jim Caruso",
+            "handicap":"15"
+          },
+          {
+            "name":"Jim Dolan Jr",
+            "handicap":"16"
+          },
+          {
+            "name":"Jake King",
+            "handicap":"18"
+          },
+          {
+            "name":"Steve Haley",
+            "handicap":"20"
+          },
+          {
+            "name":"Kevin Fahy",
+            "handicap":"21"
+          },
+          {
+            "name":"Dan Fahy",
+            "handicap":"22"
+          },
+          {
+            "name":"Patrick Wrzesinski",
+            "handicap":"0"
+          }
+        ]
+      },
+      {
+        "name" : "A Flight",
+        "players" : [
+          {
+            "name":"Brian Cramer",
+            "handicap":23
+          },
+          {
+            "name":"Matt Crowe",
+            "handicap":23
+          },
+          {
+            "name":"Bill Dame",
+            "handicap":23
+          },
+          {
+            "name":"Clyde Woolbright",
+            "handicap":23
+          },
+          {
+            "name":"Tom Neaf",
+            "handicap":24
+          },
+          {
+            "name":"Steve Stillwell",
+            "handicap":24
+          },
+          {
+            "name":"Dave Cramer",
+            "handicap":25
+          },
+          {
+            "name":"Kevin Cramer",
+            "handicap":25
+          },
+          {
+            "name":"Vince Spain",
+            "handicap":26
+          },
+          {
+            "name":"Mike Colombo",
+            "handicap":27
+          },
+          {
+            "name":"Keith Crowe",
+            "handicap":29
+          },
+          {
+            "name":"Mike A Colombo",
+            "handicap":30
+          },
+          {
+            "name":"Dennis Cordia",
+            "handicap":30
+          }
+        ]
+      },
+      {
+        "name" : "B Flight",
+        "players" : [
+          {
+            "name":"Mark Curry",
+            "handicap":31
+          },
+          {
+            "name":"Rick Kroeger Jr",
+            "handicap":32
+          },
+          {
+            "name":"Mike Parentin",
+            "handicap":33
+          },
+          {
+            "name":"Jerry Vogt",
+            "handicap":33
+          },
+          {
+            "name":"Don Dillow",
+            "handicap":36
+          },
+          {
+            "name":"Art Reel",
+            "handicap":37
+          },
+          {
+            "name":"Kevin Fromme",
+            "handicap":41
+          },
+          {
+            "name":"Jon Long",
+            "handicap":42
+          },
+          {
+            "name":"John Sharamitaro",
+            "handicap":44
+          },
+          {
+            "name":"Mike Ebert",
+            "handicap":45
+          },
+          {
+            "name":"Kevin Crowe",
+            "handicap":48
+          },
+          {
+            "name":"Tim Fahy",
+            "handicap":48
+          },
+          {
+            "name":"Bill Reel",
+            "handicap":48
+          }
+        ]
+      }
 
+      //,
+      //{
+      //  "name" : "C Flight",
+      //  "players" : [
+      //    {
+      //      "name": "Mark Curry",
+      //      "handicap" : "31"
+      //    }
+      //  ]
+      //}
+    ];
     //Rules Section
 
   };

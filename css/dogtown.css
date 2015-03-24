@@ -439,11 +439,22 @@ section#saturday .panel-heading {
 }
 
 section#sunday .panel {
+   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+   height: 160px;
+ }
+
+section#sunday .panel-heading {
+  font-style: italic;
+  color: #fed136;
+  background-color: #115202;
+}
+
+section#flights .panel {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   height: 160px;
 }
 
-section#sunday .panel-heading {
+section#flights .panel-heading {
   font-style: italic;
   color: #fed136;
   background-color: #115202;
