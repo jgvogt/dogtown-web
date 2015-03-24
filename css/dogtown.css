@@ -323,17 +323,17 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 40px;
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 35px;
     text-transform: none;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
@@ -343,7 +343,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 75px 0;
     }
 }
 
@@ -431,7 +431,6 @@ footer span.copyright {
 
 section#saturday .panel {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  height: 160px;
 }
 
 section#saturday .panel-heading {
@@ -442,7 +441,6 @@ section#saturday .panel-heading {
 
 section#sunday .panel {
    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-   height: 160px;
  }
 
 section#sunday .panel-heading {
@@ -453,10 +451,20 @@ section#sunday .panel-heading {
 
 section#flights .panel {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  height: 160px;
 }
 
 section#flights .panel-heading {
+   font-style: italic;
+   color: #fed136;
+   background-color: #115202;
+ }
+
+section#rules .table {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-align: left;
+}
+
+section#rules th {
   font-style: italic;
   color: #fed136;
   background-color: #115202;

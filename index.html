@@ -128,7 +128,7 @@
                 <div class="row">
 
                   <div ng-repeat="saturdayGroup in teeTimeSaturdayGroups" class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="panel panel-default" style="height: 220px;">
+                    <div class="panel panel-default">
                       <div class="panel-heading">{{saturdayGroup.time}}</div>
                       <div class="panel-body">
                         <table class="table table-striped table-responsive">
@@ -159,7 +159,7 @@
 
           <div class="row">
             <div ng-repeat="sundayGroup in teeTimeSundayGroups" class="col-sm-6 col-md-4 col-lg-3">
-              <div class="panel panel-default" style="height: 220px;">
+              <div class="panel panel-default">
                 <div class="panel-heading">{{sundayGroup.time}}</div>
                 <div class="panel-body">
                   <table class="table table-striped table-responsive">
@@ -189,7 +189,7 @@
 
           <div class="row">
             <div ng-repeat="flight in flights" class="col-sm-6 col-md-4 col-lg-3" >
-              <div class="panel panel-default" style="height: 600px;">
+              <div class="panel panel-default">
                 <div class="panel-heading text-center">{{flight.name}}</div>
                   <div class="panel-body" >
                     <table class="table table-striped table-responsive">
@@ -213,6 +213,63 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Rules</h2>
+                    <h3 class="section-subheading text-muted">U.S.G.A. rules and local rules shall apply (along with the following)</h3>
+                    <table class="table table-striped table-responsive table-bordered">
+                      <thead>
+                        <tr>
+                          <th style="width: 20%;">Rule</th>
+                          <th>Description</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Flights & Tournament Winner</td>
+                          <td>Gross minus handicap equals net score (all ties decided by scorecard playoff starting with #1 handicap hole from day 2 scorecard)</td>
+                        </tr>
+                        <tr>
+                          <td>Tees</td>
+                          <td>White Tees</td>
+                        </tr>
+                        <tr>
+                          <td>Improve lie</td>
+                          <td>Fairway & Rough and on greens with club head only (see Below)<br/>
+                            <ol type="1">
+                              <li>Fairway and Rough – no closer to the hole and keep all obstacles in the line of flight.</li>
+                              <li>Greens – move ball sideways due to burn marks, ball marks etc.</li>
+                            </ol>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Play ball down</td>
+                          <td>Traps and hazards.</td>
+                        </tr>
+                        <tr>
+                          <td>Clean ball</td>
+                          <td>Fairway & rough and greens – replace (only applies when something foreign is visible on ball. mud etc otherwise use the Improve lie rule listed above)</td>
+                        </tr>
+                        <tr>
+                          <td>Lost Ball</td>
+                          <td>Fairway (no penalty and drop in fairway)Rough – one stroke penalty and drop in rough Traps and Hazards (one stroke penalty and drop in trap/hazard)</td>
+                        </tr>
+                        <tr>
+                          <td>Out of Bounds</td>
+                          <td>
+                            <ol type="1">
+                              <li>From same lie two O.B. max.  add 4 and hit from second out.</li>
+                              <li>Two balls max in drink – go to safe side, add 4 & hit next shot</li>
+                            </ol>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Putts</td>
+                          <td>Putt out all putts.  Even the ones that are “impossible to miss”</td>
+                        </tr>
+                        <tr>
+                          <td>Scoring</td>
+                          <td>Person that fills out the scorecard is  responsible for reading scores off to scorer. Any discrepencies (addition errors etc.) can be addressed immediately.</td>
+                        </tr>
+                      </tbody>
+                    </table>
                 </div>
             </div>
         </div>
