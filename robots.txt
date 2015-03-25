@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: 
+Allow: /#info
+Allow: /#saturday
+Allow: /#sunday
+Allow: /#flights
+Allow: /#rules
+Allow: /#contact
